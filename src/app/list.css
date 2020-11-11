@@ -1,0 +1,47 @@
+.list{
+  position: fixed;
+  width: var(--list-width);
+  background-color: lightpink;
+  height: 100vh;
+  left: var(--book-width);
+}
+
+.addList{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.addList button{
+  cursor: pointer;
+}
+
+.list h3{
+  text-align: center;
+}
+
+.listName input{
+  position:absolute;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top:50%;
+}
+
+.listName{
+  position: absolute;
+  width: 90%;
+  border: 1px solid;
+  height: 100px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: lightsalmon;
+  top:50%;
+  
+}
+
+.listName.y{
+display: none;
+}
+

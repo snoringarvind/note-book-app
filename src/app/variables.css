@@ -1,0 +1,11 @@
+ :root{
+   --book-width:20%;
+   --list-width:20%;
+ }
+
+ body{
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}

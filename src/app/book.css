@@ -1,0 +1,49 @@
+.book{
+  position: fixed;
+  height: 100vh;
+  width: var(--book-width);
+  top: 0;
+  background-color: lightgrey;
+}
+
+.addBook{
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translateX(-50%);
+}
+.addBook button{
+  cursor: pointer;
+}
+
+.book h3{
+  text-align: center;
+}
+
+.bookName input{
+  position:absolute;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top:50%;
+}
+
+.bookName{
+    position: absolute;
+    width: 90%;
+    border: 1px solid;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: lightsalmon;
+    top:50%;
+    
+}
+
+.bookName.x{
+  display: none;
+}
+
+.book_li{
+  cursor: pointer;
+}
